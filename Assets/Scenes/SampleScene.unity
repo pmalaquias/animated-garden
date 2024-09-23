@@ -1298,13 +1298,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 122770172}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.37708035, y: 0.043893024, z: -0.01292953, w: 0.92504954}
+  m_LocalRotation: {x: 0.31230417, y: 0.044681057, z: -0.009867787, w: 0.94887954}
   m_LocalPosition: {x: -0.635, y: 1.399, z: 1.981}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 44.328, y: 5.733, z: 0.735}
+  m_LocalEulerAnglesHint: {x: 36.41, y: 5.607, z: 0.654}
 --- !u!1001 &125107313
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2706,7 +2706,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!81 &330585544
 AudioListener:
   m_ObjectHideFlags: 0
@@ -2726,7 +2726,7 @@ Camera:
   serializedVersion: 2
   m_ClearFlags: 4
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_projectionMatrixMode: 2
+  m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
   m_Iso: 200
@@ -2748,7 +2748,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 9.625552
+  field of view: 17
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -2775,7 +2775,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: 0.3166953, y: 0.55875236, z: -0.0826444, w: 0.762017}
-  m_LocalPosition: {x: -4.47, y: 3.57, z: 2.88}
+  m_LocalPosition: {x: -4.384, y: 3.812, z: 2.285}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5394,7 +5394,8 @@ PrefabInstance:
       value: -0.28671235
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 65702495048144492, guid: d9233eedbd89cba4baf72e64c86d2de3, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d9233eedbd89cba4baf72e64c86d2de3, type: 3}
